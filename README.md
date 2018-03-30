@@ -1,4 +1,4 @@
-# Pythin Exercises
+# Python Exercises
 My Python exercises for Programming and Scripting
 
 ## How to run this code
