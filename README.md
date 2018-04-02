@@ -12,7 +12,7 @@ Python Software Foundation. Python Language Reference, version 2.7. Available at
 ## Answer to Exercise 1
 
 My name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give the number 7. The 7th Fibonacci number is 13. 
-![A picture of Fisher](R._A._Fischer.jpg)
+![A picture of fib discussion forum](Fib discussion forum.JPG)
 
 
 
