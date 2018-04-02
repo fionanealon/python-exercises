@@ -45,7 +45,7 @@ def fib(n):
 
 
 
-# Test the function with the following value.
+Test the function with the following value.
 
 x = 7
 
