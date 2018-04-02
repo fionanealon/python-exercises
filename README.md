@@ -1,6 +1,6 @@
-# Exerise 1
+A# Exerise 1
 
-Please complete the following exercise this week. In the video lectures this week we ran an example program that calculated the 30th Fibonacci number. Change the program to calculate the nth Fibonacci number where n the sum of the first and last letters of your first name as numbers. Take A as the number 1, B as 2, C as 3, and so on. For example, my name is Ian, so I should calculate the 25th Fibonacci number because I is 9 and n is 14, giving 25 in total. Once you calculate the right Fibonacci number for your own name, please post it to the Discussions forum on this page as per my post there.
+vvPlease complete the following exercise this week. In the video lectures this week we ran an example program that calculated the 30th Fibonacci number. Change the program to calculate the nth Fibonacci number where n the sum of the first and last letters of your first name as numbers. Take A as the number 1, B as 2, C as 3, and so on. For example, my name is Ian, so I should calculate the 25th Fibonacci number because I is 9 and n is 14, giving 25 in total. Once you calculate the right Fibonacci number for your own name, please post it to the Discussions forum on this page as per my post there.
 
 ## References
 
@@ -10,7 +10,7 @@ Python Software Foundation. Python Language Reference, version 2.7. Available at
 
 T## Answer to Exercise 1
 
-My name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give the number 7. The 7th Fibonacci number is 13. 
+AMy name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give the number 7. The 7th Fibonacci number is 13. 
 ![A picture of forum](Forum.JPG)
 
 ## Python code used to run this program
@@ -20,7 +20,7 @@ Adapted from https://github.com/ianmcloughlin/python-fib/blob/master/fib.py
 - Ian McLoughlin
 
 - A program that displays Fibonacci numbers.
-
+A
 def fib(n):
 
   """This function returns the nth Fibonacci number."""
