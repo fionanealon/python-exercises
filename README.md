@@ -17,9 +17,9 @@ My name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give t
 
 Adapted from https://github.com/ianmcloughlin/python-fib/blob/master/fib.py
 
-Ian McLoughlin
+- Ian McLoughlin
 
-A program that displays Fibonacci numbers.
+- A program that displays Fibonacci numbers.
 
 def fib(n):
 
