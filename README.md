@@ -6,13 +6,13 @@ Please complete the following exercise this week. In the video lectures this wee
 ## References
 
 Wikipedia contributors. "Fibonacci Number." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 28 Mar. 2018. Web. 28 Mar. 2018.< https://en.wikipedia.org/wiki/Fibonacci_number
-Python Software Foundation. The Python Tutorial — Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
+Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
 Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
 
 ## Answer to Exercise 1
 
 My name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give the number 7. The 7th Fibonacci number is 13. 
-![A picture of fib discussion forum.](Fib discussion forum.jpg)
+![A picture of Fisher](R._A._Fischer.jpg)
 
 
 
