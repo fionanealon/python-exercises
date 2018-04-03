@@ -21,15 +21,19 @@ The function fib calculates the 7th Fibonacci number using a while loop.
 A while loop in python programming repeatedly executes a target statement as long as a given condition is true. In this case, the while loop repeatedly executes a multiple assignment statement as long as n > 0.
 
 In the multiple assignment, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
+
   i = 0
   j = 1
 
 When they reach the multiple assignment, you can substitute these values for the variables and see the new values for i and j:
+
     i, j = 1, 0 + 1
 So now:
+
   i = 1
   j = 1
 In the next iteration of the loop (2):
+
     i, j = 1, 1 + 1
 so now: 
   i = 1
