@@ -16,8 +16,9 @@ My name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give t
 A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. 
 The 7th Fibonacci number in the Fibonacci number sequence = 13 (0 1 1 2 3 5 8 13)
 
-## Analysis and Discussion of the function fib
+## Analysis and discussion of the function fib
 Adapted from: 
+
 The function fib calculates the 7th Fibonacci number using a while loop. 
 
 A while loop in python programming repeatedly executes a target statement as long as a given condition is true. In this case, the while loop repeatedly executes a multiple assignment statement as long as n > 0.
