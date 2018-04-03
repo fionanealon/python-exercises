@@ -103,3 +103,23 @@ In this case, since x is 7 then it prints:
 
 Fibonacci number 7 is 13
 
+## How to run this code:
+
+1.	Download Anaconda
+2.	Install Anaconda
+3.	Download Visual Studio Code
+4.	Install Visual Studio Code
+5. 	Save a new folder on desktop e.g. Python Scripts
+6.  	Save fib.py file into this folder
+7. 	Open Visual Studio Code
+8. 	Open Python Scripts folder from desktop
+9.	Open fib.py file
+10. 	Open integrated terminal in Visual Studio code
+11.  Type ‘python fib.py’ in the command prompt 
+12. 	Press enter
+
+Result:
+
+Picture
+
+
