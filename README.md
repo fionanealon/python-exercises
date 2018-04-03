@@ -3,7 +3,9 @@ Please complete the following exercise this week. In the video lectures this wee
 
 ## References
 Wikipedia contributors. "Fibonacci Number." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 28 Mar. 2018. Web. 28 Mar. 2018.< https://en.wikipedia.org/wiki/Fibonacci_number
+
 IPython Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
+
 Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
 
 ## Answer to Exercise 1
