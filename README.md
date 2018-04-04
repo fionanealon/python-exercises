@@ -145,14 +145,14 @@ Fibonacci number 7 is 13
 8. Open Python Exercises folder from desktop
 9. Open fib.py file
 10.	Open integrated terminal in Visual Studio code (Crtl + ')
-11. Type ‘python fib.py’ in the command prompt 
+11. Type ‘python fib.py’ in the command prompt in the terminal
 12.	Press enter
 
 ## Result:
 
 ![A picture of fib](fib.JPG)
 
-## Exercise 2
+# Exercise 2
 
 https://github.com/ianmcloughlin/python-fib/blob/master/fibname.py
 
@@ -183,7 +183,7 @@ The ord() method converts the characters into their corresponding ASCII value.
 
 ## Introduction
 
-This program displays Fibonacci numbers using people's names. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
+This program displays Fibonacci numbers using a person's name. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
 
 
 ## Analysis and discussion of Exercise 2
@@ -207,7 +207,7 @@ Since x = 188, this can be written:
 ```python
 ans = fib(188)
 ```
-This line is doing is calling the function fib with an argument of 188 and if we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 188. What happens now is that the function does it’s work, looping 188 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. 
+This line is calling the function fib with an argument of 188 and if we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 188. What happens now is that the function does it’s work, looping 188 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. 
 
 See below details on fib(188):
 
@@ -258,7 +258,6 @@ return i
 ```
 This line returns the last value of i which was generated in the while loop.
 
-The last line:
 ```python
 ans = fib(x)
 print("My surname is", name)
@@ -293,30 +292,23 @@ Fibonacci number 188 is 871347450517368352816615810882615488381
 
 ## How to run this code:
 
-    Download Anaconda
-    Install Anaconda
-    Download Visual Studio Code
-    Install Visual Studio Code
-    Save a new folder on desktop e.g. Python Scripts
+1. Download [Anaconda](https://anaconda.org/).
+2. Install Anaconda
+3. Download [Visual Studio Code](https://code.visualstudio.com/download).
+4. Install Visual Studio Code
+5. Save a new folder on desktop e.g. Python Exercises
+6. Save fib.py file into this folder
+7. Open Visual Studio Code
+8. Open Python Exercises folder from desktop
+9. Open fibname.py file
+10.	Open integrated terminal in Visual Studio code (Crtl + ')
+11. Type ‘python fibname.py’ in the command prompt in the terminal
+12.	Press enter
 
-     Save fib.py file into this folder
+ ## Result:
 
-    Open Visual Studio Code
-    Open Python Scripts folder from desktop
-    Open fib.py file
-    
-    
-    
+![A picture of fibname](fibname.JPG)
 
-    Open integrated terminal in Visual Studio code
-
-    Type ‘python fib.py’ in the command prompt
-
-    Press enter
-
-Result:
-
-Picture
 
 
 
