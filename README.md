@@ -175,49 +175,124 @@ Analysis and discussion of the function fib
 
 Adapted from:
 
-The function fib calculates the 7th Fibonacci number using a while loop.
+## Analysis and discussion of the function fib
+Adapted from: 
+
+The function fib calculates the 7th Fibonacci number using a while loop. 
 
 A while loop in python programming repeatedly executes a target statement as long as a given condition is true. In this case, the while loop repeatedly executes a multiple assignment statement as long as n > 0.
 
 In the multiple assignment, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
-
+```python
 i = 0
-
 j = 1
-
+```
 When they reach the multiple assignment, you can substitute these values for the variables and see the new values for i and j:
-
+```python
 i, j = 1, 0 + 1
-
+```
 So now:
-
-i = 1 j = 1 In the next iteration of the loop (2):
-
+```python
+i = 1
+j = 1
+```
+In the next iteration of the loop (2):
+```python
 i, j = 1, 1 + 1
-
-so now: i = 1 j = 2 In the next iteration of the loop (3): i, j = 2, 1 + 2 so now: i = 2 j = 3 In the next iteration of the loop (4): i, j = 3, 2 + 3 so now: i = 3 j = 5 In the next iteration of the loop (5): i, j = 5, 3 + 5 so now: i = 5 j = 8 In the next iteration of the loop (6): i, j = 8, 5 + 8 so now: i = 8 j = 13 In the next iteration of the loop (7): i, j = 13, 8 + 13 so now: i = 13 j = 21
-
+```
+so now: 
+```python
+i = 1
+j = 2
+```
+In the next iteration of the loop (3):
+```python
+i, j = 2, 1 + 2
+```
+so now: 
+```python
+i = 2
+j = 3
+```
+In the next iteration of the loop (4):
+```python
+i, j = 3, 2 + 3
+```
+so now: 
+```python
+i = 3
+j = 5
+```
+In the next iteration of the loop (5):
+```python
+i, j = 5, 3 + 5
+```
+so now: 
+```python
+i = 5
+j = 8
+```
+In the next iteration of the loop (6):
+```python
+i, j = 8, 5 + 8
+```
+so now: 
+```python
+i = 8
+j = 13
+```
+In the next iteration of the loop (7):
+```python
+i, j = 13, 8 + 13
+```
+so now: 
+```python
+i = 13
+j = 21
+```
 The most important variable is i as it is the one that is returned at the end of the function. You can see that the 7 times that we’ve gone through the loop the value of i has been set to a number from the sequence:
 
 0, 1, 1, 2, 3, 5, 8, 13
 
-In the while loop the reason that you have n = n - 1 is to act as a counter. Every time we go through the loop n is de-incremented by 1 so if n = 7 the first time through the loop it becomes 6 the next time through and so on until it becomes -1 which then fails the condition of the while loop (n >= 0) and the while loop ends.
+In the while loop the reason that you have n = n - 1  is to act as a counter. Every time we go through the loop n is de-incremented by 1 so if n = 7 the first time through the loop it becomes 6 the next time through and so on until it becomes -1 which then fails the condition of the while loop (n >= 0) and the while loop ends.
 
-After the while loop ends, the next line is the last of the function: return i
-
+After the while loop ends, the next line is the last of the function:
+```python
+return i
+```
 This line returns the last value of i which was generated in the while loop.
 
 Everything up to this point has been discussing the contents of the function fib.
 
 The next part is not part of the function:
+```python
+x = 7
+ans = fib(x)
+print("Fibonacci number", x, "is", ans)
+```
 
-x = 7 ans = fib(x) print("Fibonacci number", x, "is", ans) so… x = 7 Assigns the value of 7 to x. ans = fib(x) Since x = 7, this can be written: ans = fib(30) What this line is doing is calling the function fib with an argument of 7 and we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 7. What happens now is that the function does it’s work, looping 7 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. it is this value that is assigned to ans. The last line: print("Fibonacci number", x, "is", ans)
+So…
+x = 7 assigns the value of 7 to x.
+```python
+ans = fib(x)
+```
+Since x = 7, this can be written:
+```python
+ans = fib(7)
+```
+What this line is doing is calling the function fib with an argument of 7 and we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 7. What happens now is that the function does it’s work, looping 7 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. it is this value that is assigned to ans.
+The last line:
+```python
+print("Fibonacci number", x, "is", ans)
+```
 
 This prints:
 
-"Fibonacci number”, then the value of x, then “is” and then the value of ans. In this case, since x is 7 then it prints:
+"Fibonacci number”, then the value of x, then “is” and then the value of ans.
+In this case, since x is 7 then it prints:
 
 Fibonacci number 7 is 13
+
 How to run this code:
 
     Download Anaconda
