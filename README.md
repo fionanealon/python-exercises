@@ -25,9 +25,10 @@ A while loop in python programming repeatedly executes a target statement as lon
 
 In the multiple assignment, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
 
-  i = 0
-  
-  j = 1
+```python
+i = 0
+j = 1
+```
 
 When they reach the multiple assignment, you can substitute these values for the variables and see the new values for i and j:
 
