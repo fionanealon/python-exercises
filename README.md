@@ -31,7 +31,9 @@ In the multiple assignment, all values on the right side of the ‘=‘are calcu
 
 When they reach the multiple assignment, you can substitute these values for the variables and see the new values for i and j:
 
-    i, j = 1, 0 + 1
+```python
+i, j = 1, 0 + 1
+```
 So now:
 
   i = 1
