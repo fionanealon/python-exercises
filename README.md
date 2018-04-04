@@ -150,7 +150,7 @@ Fibonacci number 7 is 13
 
 ## Result:
 
-![A picture of fic](Fib.JPG)
+![A picture of fib](Fib.JPG)
 
 ## Exercise 2
 
