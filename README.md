@@ -182,7 +182,6 @@ The ord() function converts the ASCII 'N' and 'n' characters into their correspo
 
 ![A picture of name forum](name forum.JPG)
 
-
 ## Introduction
 
 This program displays Fibonacci numbers using a person's name. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
