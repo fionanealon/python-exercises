@@ -207,7 +207,9 @@ ans = fib(188)
 ```
 This line is doing is calling the function fib with an argument of 188 and if we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 188. What happens now is that the function does it’s work, looping 188 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. 
 
-To explain def fib(n): In the multiple assignment of the while loop, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
+See below details on fib(188):
+
+In the multiple assignment of the while loop, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
 ```python
 i = 0
 j = 1
@@ -268,16 +270,19 @@ This prints:
 In this case, since name is Nealon then it prints:
 
 My surname is Nealon
+
 2. "The first letter", then then the value of first (line 17 of the program,) then "is number", then the value of firstno (line 19 of the program) on the second sentence at the command prompt. 
 
 In this case, since first is N and firstno is 78 it prints:
 
 The first letter N is number 78
+
 3. "The last letter", then then the value of last (line 18 of the program,) then "is number", then the value of lastno (line 20 of the program) on the third sentence at the command prompt. 
 
 In this case, since last is n and firstno is 110 it prints:
 
 The last letter n is number 110
+
 4. "Fibonacci number”, then the value of x, then “is” and then the value of ans.
 
 In this case, since x is 188 then it prints:
