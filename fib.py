@@ -29,7 +29,7 @@ def fib(n):
 
 # Test the function with the following value.
 
-x = 6
+x = 7
 
 
 ans = fib(x)
