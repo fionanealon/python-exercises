@@ -185,6 +185,8 @@ The ord() method converts the characters into their corresponding ASCII value.
 
 This program displays Fibonacci numbers using a person's name. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
 
+The program locates the first letter and the last letter of the person's name and converts these letters (ASCII characters) in decimal. The program then adds these two decimal numbers together and provides a desciption of this process in the terminal.
+
 
 ## Analysis and discussion of Exercise 2
 
