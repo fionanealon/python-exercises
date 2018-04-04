@@ -169,7 +169,7 @@ Python Software Foundation. Python Language Reference, version 2.7. Available at
 
 My surname is Nealon
 
-The first letter D is number 78
+The first letter N is number 78
 
 The last letter n is number 110
 
@@ -180,8 +180,7 @@ The ord() method converts the characters into their corresponding ASCII value.
 
 ## Introduction
 
-A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The 7th Fibonacci number in the Fibonacci number sequence = 13 (0 1 1 2 3 5 8 13)
-Analysis and discussion of the function fib
+A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. 
 
 Adapted from:
 
