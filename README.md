@@ -115,9 +115,13 @@ print("Fibonacci number", x, "is", ans)
 so…
 x = 7
 Assigns the value of 7 to x.
+``python
 ans = fib(x)
+```
 Since x = 7, this can be written:
+```python
 ans = fib(30)
+```
 What this line is doing is calling the function fib with an argument of 7 and we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 7. What happens now is that the function does it’s work, looping 7 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. it is this value that is assigned to ans.
 The last line:
 ```python
