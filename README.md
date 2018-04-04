@@ -133,9 +133,9 @@ Fibonacci number 7 is 13
 
 ## How to run this code:
 
-1. Download Anaconda
+1. Download [Anaconda](https://anaconda.org/).
 2. Install Anaconda
-3. Download Visual Studio Code
+3. Download [Visual Studio Code](https://code.visualstudio.com/download).
 4. Install Visual Studio Code
 5. Save a new folder on desktop e.g. Python Scripts
 6. Save fib.py file into this folder
