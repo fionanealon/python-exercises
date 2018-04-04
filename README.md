@@ -24,25 +24,20 @@ The function fib calculates the 7th Fibonacci number using a while loop.
 A while loop in python programming repeatedly executes a target statement as long as a given condition is true. In this case, the while loop repeatedly executes a multiple assignment statement as long as n > 0.
 
 In the multiple assignment, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
-
 ```python
 i = 0
 j = 1
 ```
-
 When they reach the multiple assignment, you can substitute these values for the variables and see the new values for i and j:
-
 ```python
 i, j = 1, 0 + 1
 ```
 So now:
-
 ```python
 i = 1
 j = 1
 ```
 In the next iteration of the loop (2):
-
 ```python
 i, j = 1, 1 + 1
 ```
@@ -111,10 +106,12 @@ This line returns the last value of i which was generated in the while loop.
 Everything up to this point has been discussing the contents of the function fib.
 
 The next part is not part of the function:
-
+```python
 x = 7
 ans = fib(x)
 print("Fibonacci number", x, "is", ans)
+```
+
 so…
 x = 7
 Assigns the value of 7 to x.
@@ -123,7 +120,9 @@ Since x = 7, this can be written:
 ans = fib(30)
 What this line is doing is calling the function fib with an argument of 7 and we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 7. What happens now is that the function does it’s work, looping 7 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. it is this value that is assigned to ans.
 The last line:
+```python
 print("Fibonacci number", x, "is", ans)
+```
 
 This prints:
 
