@@ -94,36 +94,40 @@ The most important variable is i as it is the one that is returned at the end of
 
 0, 1, 1, 2, 3, 5, 8, 13
 
-In the while loop the reason that you have n = n - 1  is to act as a counter. Every time we go through the loop n is de-incremented by 1 so if n = 7 the first time through the loop it becomes 6 the next time through and so on until it becomes -1 which then fails the condition of the while loop (n >= 0) and the while loop ends.
+In the while loop the reason that you have n = n - 1  is to act as a counter. Every time we go through the loop, n is de-incremented by 1 so if n = 7 the first time through the loop, it becomes 6 the next time through and so on until it becomes -1, which then fails the condition of the while loop (n >= 0) and the while loop ends.
 
-After the while loop ends, the next line is the last of the function:
+After the while loop ends, the next line is the last line of the function:
 ```python
 return i
-``
+```
 This line returns the last value of i which was generated in the while loop.
 
 Everything up to this point has been discussing the contents of the function fib.
 
 The next part is not part of the function:
-```pythonx = 7
+```python
+x = 7
 ans = fib(x)
 print("Fibonacci number", x, "is", ans)
 ```
+
 So…
 x = 7 assigns the value of 7 to x.
 ```python
 ans = fib(x)
 ```
-fSince x = 7, this can be written:
+Since x = 7, this can be written:
 ```python
 ans = fib(7)
 ```
-What this line is doing is calling the function fib with an argument of 7 and we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 7. What happens now is that the function does it’s work, looping 7 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. it is this value that is assigned to ans.
+What this line is doing, is calling the function fib with an argument of 7 and when we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 7. What happens now, is that the function does it’s work, looping 7 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. It is this value that is assigned to ans.
 The last line:
 ```python
 print("Fibonacci number", x, "is", ans)
 ```
+
 This prints:
+
 "Fibonacci number”, then the value of x, then “is” and then the value of ans.
 In this case, since x is 7 then it prints:
 
@@ -135,19 +139,18 @@ Fibonacci number 7 is 13
 2. Install Anaconda
 3. Download [Visual Studio Code](https://code.visualstudio.com/download).
 4. Install Visual Studio Code
-5. Save a new folder on desktop e.g. Python Scripts
+5. Save a new folder on desktop e.g. Python Exercises
 6. Save fib.py file into this folder
 7. Open Visual Studio Code
-8. Open Python Scripts folder from desktop
+8. Open Python Exercises folder from desktop
 9. Open fib.py file
-10.	Open integrated terminal in Visual Studio code
+10.	Open integrated terminal in Visual Studio code (Crtl + ')
 11. Type ‘python fib.py’ in the command prompt 
 12.	Press enter
 
 ## Result:
-![A picture of forum](Foru.JPG)
 
-
+![A picture of fic](Fib.JPG)
 
 ## Exercise 2
 
@@ -181,6 +184,7 @@ The ord() method converts the characters into their corresponding ASCII value.
 ## Introduction
 
 This program displays Fibonacci numbers using people's names. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
+
 
 ## Analysis and discussion of Exercise 2
 
