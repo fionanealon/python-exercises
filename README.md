@@ -265,31 +265,31 @@ print("The last letter", last, "is number", lastno)
 print("Fibonacci number", x, "is", ans)
 ```
 This prints:
-1. "My surname is”, then the name (line 16 of the program) on the first sentence at the command prompt. 
+"My surname is”, then the name (line 16 of the program) on the first sentence at the command prompt. 
 
 In this case, since name is Nealon then it prints:
 
 My surname is Nealon
 
-2. "The first letter", then then the value of first (line 17 of the program,) then "is number", then the value of firstno (line 19 of the program) on the second sentence at the command prompt. 
+"The first letter", then then the value of first (line 17 of the program,) then "is number", then the value of firstno (line 19 of the program) on the second sentence at the command prompt. 
 
 In this case, since first is N and firstno is 78 it prints:
 
 The first letter N is number 78
 
-3. "The last letter", then then the value of last (line 18 of the program,) then "is number", then the value of lastno (line 20 of the program) on the third sentence at the command prompt. 
+"The last letter", then then the value of last (line 18 of the program,) then "is number", then the value of lastno (line 20 of the program) on the third sentence at the command prompt. 
 
 In this case, since last is n and firstno is 110 it prints:
 
 The last letter n is number 110
 
-4. "Fibonacci number”, then the value of x, then “is” and then the value of ans.
+"Fibonacci number”, then the value of x, then “is” and then the value of ans.
 
 In this case, since x is 188 then it prints:
 
 Fibonacci number 188 is 871347450517368352816615810882615488381
 
-How to run this code:
+## How to run this code:
 
     Download Anaconda
     Install Anaconda
