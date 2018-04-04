@@ -178,7 +178,9 @@ The last letter n is number 110
 
 Fibonacci number 188 is 871347450517368352816615810882615488381
 
-The ord() method converts the characters into their corresponding ASCII value.
+The ord() function converts the ASCII 'N' and 'n' characters into their corresponding ASCII decimal value.
+
+![A picture of name forum](name forum.JPG)
 
 
 ## Introduction
