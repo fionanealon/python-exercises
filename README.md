@@ -56,29 +56,46 @@ In the next iteration of the loop (3):
 i, j = 2, 1 + 2
 ```
 so now: 
-  i = 2
-  j = 3
+```python
+i = 2
+j = 3
+```
 In the next iteration of the loop (4):
-    i, j = 3, 2 + 3
+```python
+i, j = 3, 2 + 3
+```
 so now: 
-  i = 3
-  j = 5
+```python
+i = 3
+j = 5
+```
 In the next iteration of the loop (5):
-    i, j = 5, 3 + 5
+```python
+i, j = 5, 3 + 5
+```
 so now: 
-  i = 5
-  j = 8
+```python
+i = 5
+j = 8
+```
 In the next iteration of the loop (6):
-    i, j = 8, 5 + 8
+```python
+i, j = 8, 5 + 8
+```
 so now: 
-  i = 8
-  j = 13
+```python
+i = 8
+j = 13
+```
 In the next iteration of the loop (7):
-    i, j = 13, 8 + 13
+```python
+i, j = 13, 8 + 13
+```
 so now: 
-  i = 13
-  j = 21
-
+```python
+i = 13
+j = 21
+```
 The most important variable is i as it is the one that is returned at the end of the function. You can see that the 7 times that we’ve gone through the loop the value of i has been set to a number from the sequence:
 
 0, 1, 1, 2, 3, 5, 8, 13
@@ -86,8 +103,9 @@ The most important variable is i as it is the one that is returned at the end of
 In the while loop the reason that you have n = n - 1  is to act as a counter. Every time we go through the loop n is de-incremented by 1 so if n = 7 the first time through the loop it becomes 6 the next time through and so on until it becomes -1 which then fails the condition of the while loop (n >= 0) and the while loop ends.
 
 After the while loop ends, the next line is the last of the function:
-  return i
-
+```python
+return i
+```
 This line returns the last value of i which was generated in the while loop.
 
 Everything up to this point has been discussing the contents of the function fib.
