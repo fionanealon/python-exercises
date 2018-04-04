@@ -167,8 +167,18 @@ Python Software Foundation. Python Language Reference, version 2.7. Available at
 
 ## Answer to Exercise 2
 
-My name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give the number 7. The 7th Fibonacci number is 13. A picture of forum
-Introduction
+My surname is Nealon
+
+The first letter D is number 78
+
+The last letter n is number 110
+
+Fibonacci number 188 is 871347450517368352816615810882615488381
+
+The ord() method converts the characters into their corresponding ASCII value.
+
+
+## Introduction
 
 A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The 7th Fibonacci number in the Fibonacci number sequence = 13 (0 1 1 2 3 5 8 13)
 Analysis and discussion of the function fib
