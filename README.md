@@ -37,16 +37,24 @@ i, j = 1, 0 + 1
 ```
 So now:
 
-  i = 1
-  j = 1
+```python
+i = 1
+j = 1
+```
 In the next iteration of the loop (2):
 
-    i, j = 1, 1 + 1
+```python
+i, j = 1, 1 + 1
+```
 so now: 
-  i = 1
-  j = 2
+```python
+i = 1
+j = 2
+```
 In the next iteration of the loop (3):
-    i, j = 2, 1 + 2
+```python
+i, j = 2, 1 + 2
+```
 so now: 
   i = 2
   j = 3
