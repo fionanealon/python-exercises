@@ -277,6 +277,21 @@ Everything up to this point has been discussing the contents of the function fib
 
 The next part is not part of the function:
 ```python
+name = "Nealon"
+first = name[0]
+last = name[-1]
+firstno = ord(first)
+lastno = ord(last)
+x = firstno + lastno
+
+ans = fib(x)
+print("My surname is", name)
+print("The first letter", first, "is number", firstno)
+print("The last letter", last, "is number", lastno)
+print("Fibonacci number", x, "is", ans)
+```
+
+```python
 x = 7
 ans = fib(x)
 print("Fibonacci number", x, "is", ans)
