@@ -115,7 +115,7 @@ print("Fibonacci number", x, "is", ans)
 so…
 x = 7
 Assigns the value of 7 to x.
-``python
+```python
 ans = fib(x)
 ```
 Since x = 7, this can be written:
