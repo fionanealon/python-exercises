@@ -149,9 +149,9 @@ Fibonacci number 7 is 13
 11. Type ‘python fib.py’ in the command prompt 
 12.	Press enter
 
-Result:
+## Result:
 
-Picture
+
 
 ## Exercise 2
 
