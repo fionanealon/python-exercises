@@ -1,13 +1,12 @@
 # Fiona Nealon, 2018-03-31
 # The Collatz conjecture program
 
-n = 17
-print(n)
+n = int(input("Please enter an integer: "))
 
 while n != 1:
   if (n % 2 == 0):
     n = n/2
-    print(n)
+    print(int(n))
   else:
     n = (3*n)+1
-    print(n)
+    print(int(n))
