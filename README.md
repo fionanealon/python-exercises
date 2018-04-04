@@ -352,17 +352,30 @@ The collatz conjecture is defined as a sequence that starts with a positive inte
 
 ## Analysis and discussion of Exercise 3
 
+This program executes the collatz conjecture for the variable n=17. The program uses a while loop to repeatedly execute statements given a certain condition. The program uses the exectues the if statement if this statement is true and prints the result of this statement. Otherwise, it executes the else statement and prints the result of this statement. The while loop will continue to iterate the if and else statements while a given condition is true.
 
 ```python
 n = int(input("Please enter an integer: "))
 
-while n != 1:
+# n is the variable expressed as an integer. The program is also asking the user for the integer instead of specifying a value at the start of your code
+ 
+ while n != 1:
+
+# This is the condition of the while loop. The while loop will continue to iterate the if and else statements and print them as an integer as long as n does not equal 1. 
+ 
   if (n % 2 == 0):
+
+# The if statement is finding the values of n when they divide evenly by 2
     n = n/2
+# If this is true, the if statement divides n by 2
     print(int(n))
+# Then the if statement prints n as an integer if the staetement is true
   else:
+# If the above if statement is not true and it's not possible to divide n evenly by 2, the while loop then executes the below statement.
     n = (3*n)+1
-print(int(n))
+# The above statement multiplies n by 3 and adds 1.
+    print(int(n))
+# Then the else statement prints n as an integer if the staetement is false
 ```
 
 ## How to run this code:
