@@ -99,24 +99,22 @@ In the while loop the reason that you have n = n - 1  is to act as a counter. Ev
 After the while loop ends, the next line is the last of the function:
 ```python
 return i
-```
+``
 This line returns the last value of i which was generated in the while loop.
 
 Everything up to this point has been discussing the contents of the function fib.
 
 The next part is not part of the function:
-```python
-x = 7
+```pythonx = 7
 ans = fib(x)
 print("Fibonacci number", x, "is", ans)
 ```
-
 So…
 x = 7 assigns the value of 7 to x.
 ```python
 ans = fib(x)
 ```
-Since x = 7, this can be written:
+fSince x = 7, this can be written:
 ```python
 ans = fib(7)
 ```
@@ -125,9 +123,7 @@ The last line:
 ```python
 print("Fibonacci number", x, "is", ans)
 ```
-
 This prints:
-
 "Fibonacci number”, then the value of x, then “is” and then the value of ans.
 In this case, since x is 7 then it prints:
 
@@ -149,6 +145,7 @@ Fibonacci number 7 is 13
 12.	Press enter
 
 ## Result:
+![A picture of forum](Foru.JPG)
 
 
 
@@ -184,7 +181,6 @@ The ord() method converts the characters into their corresponding ASCII value.
 ## Introduction
 
 This program displays Fibonacci numbers using people's names. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
-
 
 ## Analysis and discussion of Exercise 2
 
