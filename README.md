@@ -155,6 +155,8 @@ Fibonacci number 7 is 13
 
 ## Exercise 2
 
+https://github.com/ianmcloughlin/python-fib/blob/master/fibname.py
+
 Above is a link to a program I wrote that works similarly to last week's exercise. Copy and run the program yourself. Change the string variable to contain your own surname, and rerun it. Can you figure out what ord() does? Try to Google it to find out. Post the output of the program, along with any insight you have as to what ord() does, to the discussions forum.
 
 ## References
@@ -187,7 +189,7 @@ Adapted from:
 ## Analysis and discussion of Exercise 2
 Adapted from: 
 
-The function fib calculates the 7th Fibonacci number using a while loop. 
+The function fib calculates the 188th Fibonacci number using a while loop. 
 
 A while loop in python programming repeatedly executes a target statement as long as a given condition is true. In this case, the while loop repeatedly executes a multiple assignment statement as long as n > 0.
 
@@ -223,7 +225,7 @@ so now:
 i = 2
 j = 3
 ```
-In the next iteration of the loop (4):
+In the next iteration of the loop (188):
 ```python
 i, j = 3, 2 + 3
 ```
