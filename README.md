@@ -263,9 +263,9 @@ print("The last letter", last, "is number", lastno)
 print("Fibonacci number", x, "is", ans)
 ```
 This prints:
-"My surname is”, then the name (line 16 of the program) on the first sentence at the command prompt. 
-In this case, since name is Nealon then it prints:
-My surname is Nealon
+1. "My surname is”, then the name (line 16 of the program) on the first sentence at the command prompt. 
+- In this case, since name is Nealon then it prints:
+- My surname is Nealon
 "The first letter", then then the value of first (line 17 of the program,) then "is number", then the value of firstno (line 19 of the program) on the second sentence at the command prompt. 
 In this case, since first is N and firstno is 78 it prints:
 The first letter N is number 78
