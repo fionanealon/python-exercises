@@ -17,7 +17,6 @@ A Fibonacci number sequence is a sequence of numbers where the first two Fibonac
 The 7th Fibonacci number in the Fibonacci number sequence = 13 (0 1 1 2 3 5 8 13)
 
 ## Analysis and discussion of Exercise 1
-Adapted from: 
 
 The function fib calculates the 7th Fibonacci number using a while loop. 
 
@@ -182,12 +181,79 @@ The ord() method converts the characters into their corresponding ASCII value.
 
 ## Introduction
 
-A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. 
+This program displays Fibonacci numbers using people's names. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
 
-Adapted from:
 
 ## Analysis and discussion of Exercise 2
-Adapted from: 
+
+This program is similar to the program in Exercise 1. Also in this program, the while loop repeatedly executes a multiple assignment statement as long as n > 0.
+
+In this case, n=188
+
+In the multiple assignment, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
+```python
+i = 0
+j = 1
+```
+When they reach the multiple assignment, you can substitute these values for the variables and see the new values for i and j:
+```python
+i, j = 1, 0 + 1
+```
+So now:
+```python
+i = 1
+j = 1
+```
+In the next iteration of the loop (2):
+```python
+i, j = 1, 1 + 1
+```
+so now: 
+```python
+i = 1
+j = 2
+```
+In the next iteration of the loop (3):
+```python
+i, j = 2, 1 + 2
+```
+so now: 
+```python
+i = 2
+j = 3
+```
+This continues until the 188th iteration of the loop:
+```python
+i, j = 2, 1 + 2
+```
+so now: 
+```python
+i = 2
+j = 3
+```
+
+To explain the following python code:
+```python
+name = "Nealon"
+first = name[0]
+last = name[-1]
+firstno = ord(first)
+lastno = ord(last)
+x = firstno + lastno
+```
+
+x = 188 assigns the value of 188 to x.
+```python
+ans = fib(x)
+```
+Since x = 188, this can be written:
+```python
+ans = fib(188)
+```
+What this line is doing is calling the function fib with an argument of 188 and we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 188. What happens now is that the function does it’s work, looping 188 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. It is this value that is assigned to ans.
+
+
+A program that displays Fibonacci numbers using people's names.
 
 The function fib calculates the 188th Fibonacci number using a while loop. 
 
@@ -284,7 +350,10 @@ firstno = ord(first)
 lastno = ord(last)
 x = firstno + lastno
 
+x = 188 assigns the value of 188 to x.
 ans = fib(x)
+
+
 print("My surname is", name)
 print("The first letter", first, "is number", firstno)
 print("The last letter", last, "is number", lastno)
