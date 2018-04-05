@@ -397,4 +397,9 @@ Result:
 
 Picture
 
+## Exercise 4
+
+Please complete the following exercise this week. It is problem 5 from Project Euler. The problem is as follows. 2,520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. Write a Python program using for and range to calculate the smallest positive number that is evenly divisible by all of the numbers from 1 to 20. Add your answer to your GitHub repository.
+
+Original problem: https://projecteuler.net/problem=5
 
