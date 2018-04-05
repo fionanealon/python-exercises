@@ -202,7 +202,7 @@ firstno = ord(first)
 lastno = ord(last)
 x = firstno + lastno
 ```
-This program finds the first letter and the last letter of the name "Nealon" - "N and "n". The ord() function then converts the 'N' and 'n'  ASCII characters into decimal values so "N"=78 and "n"=110. On the next line, 78 and 110 are then added together to assign the value of x.
+This program finds the first letter and the last letter of the name "Nealon" - "N and "n" using [0] amd [-1] - the first and last elements of the list. The ord() function then converts the 'N' and 'n'  ASCII characters into decimal values so "N"=78 and "n"=110. On the next line, 78 and 110 are then added together to assign the value of x.
 ```python
 ans = fib(x)
 ```
