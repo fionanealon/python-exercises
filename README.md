@@ -431,10 +431,12 @@ Project Euler (named after Leonhard Euler) is a website dedicated to a series of
 ## Solution to Exercise 4
 
 The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 =
-2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560
-[Ref: Euler 5](https://projecteuler.net/problem=5
-)
 
+2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560
+
+[Ref: Euler 5](https://projecteuler.net/problem=5)
+
+## Analysis and discussion of Exercise 4
 
 # Exercise 5
 
