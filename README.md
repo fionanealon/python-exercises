@@ -464,11 +464,30 @@ def factorial(upto):
 # Return the factorial    
   return multupto
 # Tests from questions
-print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10)
+print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10))
 ```
-From exercise 6, we have already established the above block of code takes all of the values between 1 and 10 and multplies the with each other to get an ouptut. We should be able to use some of the logic from this function to find the smallest positive number that is evenly divisible by all of the numbers from 1 to 20 i.e. 2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560.
+In exercise 6, we have already established that the above piece of code multiplies all the values between 1 and 10 to get the value 3,628,800. This block of code takes a range of values and multiplies them with each other to get an putput. We should be able to use some of this logic to multiply all the values required for project Euler problem 5 - 2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560.
 
+```python
+smallest_num = 1
+for i in range (1,21):
+    if smallest_num % i > 0: # If the number is not divisible by i
+        for k in range (1,21):
+            if (smallest_num * k) % i == 0: # Find the smallest number divisible by i    
+                smallest_num = smallest_num * k
+                break
+print (smallest_num)
+```
 
+Upon investigation of project Euler problem 5, I found the below code on [Ref: Stack Overflow](https://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution) held several similarities to logic already established in exercise 6 and that I might be be able to adapt part of this block of code to my factorial function
+
+```python
+ if smallest_num % i > 0: # If the number is not divisible by i
+        for k in range (1,21):
+            if (smallest_num * k) % i == 0: # Find the smallest number divisible by i    
+                smallest_num = smallest_num * k
+                break
+```
 
 
 
