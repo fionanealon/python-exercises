@@ -420,6 +420,8 @@ Problem 5 Project Euler. Available at https://projecteuler.net/problem=5
 
 Project Euler Problem 5. Available at https://www.youtube.com/watch?v=WY9NtJoIqx0
 
+Stack Overflow. https://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution
+
 Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
 
 Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
@@ -437,6 +439,14 @@ The smallest positive number that is evenly divisible by all of the numbers from
 [Ref: Euler 5](https://projecteuler.net/problem=5)
 
 ## Analysis and discussion of Exercise 4
+
+
+
+
+
+
+
+
 
 # Exercise 5
 
