@@ -419,6 +419,8 @@ Please complete the following exercise this week. Write a Python script containi
 
 ## References
 
+Wikipedia contributors. "Function (mathematics)" Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 06. April. 2018. Web. 06. April. 2018.< https://en.wikipedia.org/wiki/Function_(mathematics)
+
 Wikipedia contributors. "Factorial" Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 05. April. 2018. Web. 05. April. 2018.< https://en.wikipedia.org/wiki/Factorial
 
 Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
@@ -426,6 +428,8 @@ Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Ava
 Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
 
 ## Introduction
+
+In mathematics, a function[1] is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. An example is the function that relates each real number x to its square x2. The output of a function f corresponding to an input x is denoted by f(x) (read "f of x").
 
 In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. 
 
