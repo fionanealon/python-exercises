@@ -454,12 +454,42 @@ The above piece of code states that with the data/iris.csv file as f, create a b
 ```python
 for line in f:
 ```
-The for loop loops through each of the lines on  f (data/iris.csv) file.
+The 'for loop' loops through each of the lines on  f (data/iris.csv) file.
 
 ```python
 print(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3])
 ```
-The above code prints a string in the required format for exercise 5
+The above split command splits each line into a python list. The index mehod finds the given element in a list and returns its position so [0] prints the first column in the last, [1] prints the second column in the list, [2] prints the third column on the list and [3] prints the fourth column on the list.
+
+The lines already have a space between and the decimal places are aligned so no further formatting is required.
+
+## How to run this code:
+
+1. Download [Anaconda](https://anaconda.org/).
+2. Install Anaconda
+3. Download [Visual Studio Code](https://code.visualstudio.com/download).
+4. Install Visual Studio Code
+5. Save a new folder on desktop e.g. Python Exercises
+6. Copy Iris Flower data set from [Iris Flower Data Set](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
+7. Save as .csv file in subfolder called Data in Python Exercises folder
+8. Save openfile.py file into Python Exercises folder
+7. Open Visual Studio Code
+8. Open Python Exercises folder from desktop
+9. Open openfile.py file
+10.	Open integrated terminal in Visual Studio code (Crtl + ')
+11. Type ‘python openfile.py’ in the command prompt in the terminal
+12.	Press enter
+
+ ## Result:
+
+![A picture of factorial](factorial.JPG)
+
+
+
+
+
+
+
 # Exercise 6
 
 Please complete the following exercise this week. Write a Python script containing a function called factorial() that takes a single input/argument which is a positive integer and returns its factorial. The factorial of a number is that number multiplied by all of the positive numbers less than it. For example, the factorial of 5 is 5x4x3x2x1 which equals 120. You should, in your script, test the function by calling it with the values 5, 7, and 10.
