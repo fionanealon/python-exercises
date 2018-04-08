@@ -337,68 +337,76 @@ Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Ava
 
 Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
 
-## Answer to Exercise 3
-
-Please enter an integer: 17
-52
-26
-13
-40
-20
-10
-5
-16
-8
-4
-2
-1
-
-
 ## Introduction
 
 The collatz conjecture is defined as a sequence that starts with a positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. Otherwise, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1. [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
 
+## Answer to Exercise 3
+
+Please enter an integer: 17
+52
+
+26
+
+13
+
+40
+
+20
+
+10
+
+5
+
+16
+
+8
+
+4
+
+2
+
+1
+
+
 
 ## Analysis and discussion of Exercise 3
 
-This program executes the collatz conjecture for the variable n=17. The program uses a while loop to repeatedly execute statements given a certain condition. The program uses the exectues the if statement if this statement is true and prints the result of this statement. Otherwise, it executes the else statement and prints the result of this statement. The while loop will continue to iterate the if and else statements while a given condition is true.
+This program executes the collatz conjecture for the variable n=17. The program uses a 'while loop' to repeatedly execute statements given a certain condition. The program uses the exectues the 'if' statement if this statement is true and prints the result of this statement. Otherwise, it executes the 'else' statement and prints the result of this statement. The 'while loop' will continue to iterate the 'if' and 'else' statements while a given condition is true.
 
 ```python
 n = int(input("Please enter an integer: "))
-
-# n is the variable expressed as an integer. The program is also asking the user for the integer instead of specifying a value at the start of your code
- 
- while n != 1:
-
-# This is the condition of the while loop. The while loop will continue to iterate the if and else statements and print them as an integer as long as n does not equal 1. 
- 
-  if (n % 2 == 0):
-
-# The if statement is finding the values of n when they divide evenly by 2
-    n = n/2
-# If this is true, the if statement divides n by 2
-    print(int(n))
-# Then the if statement prints n as an integer if the staetement is true
-  else:
-def factorial(upto):
-# Create a variable that will become the answer
-  multupto = 1
-# Loop through numbers i from 1 to upto
-  for i in range(1, upto + 1):
-# Multiply ans by i, changing ans to that
-    multupto = multupto * i
-# Return the factorial    
-  return multupto
-# Tests from questions
-print("The multiplication of the values from to 1 to 5 inclusive is", factorial(5))
-print("The multiplication of the values from to 1 to 7 inclusive is", factorial(7))
-print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10)) 
-# If the above if statement is not true and it's not possible to divide n evenly by 2, the while loop then executes the below statement.
-    n = (3*n)+1
-# The above statement multiplies n by 3 and adds 1.
-    print(int(n))
-# Then the else statement prints n as an integer if the staetement is false
 ```
+n is the variable expressed as an integer. The program is also asking the user for the integer instead of specifying a value at the start of the code
+
+```python
+ while n != 1:
+```
+This is the condition of the 'while loop'. The 'while loop' will continue to iterate the 'if' and 'else' statements and print them as an integer as long as n does not equal 1. 
+```python 
+  if (n % 2 == 0):
+```
+The if statement is finding the values of n when they divide evenly by 2
+```python 
+    n = n/2
+```
+If this is true, the if statement divides n by 2
+```python
+    print(int(n))
+```
+Then the 'if' statement prints n as an integer if the statement is true
+```python
+  else:
+ ```
+If the above if statement is not true and it's not possible to divide n evenly by 2, the 'while loop' then executes the below statement.
+```python
+    n = (3*n)+1
+ ```
+ The above statement multiplies n by 3 and adds 1.
+ ```python
+    print(int(n))
+ ```
+Then the else statement prints n as an integer if the statement is false
 
 ## How to run this code:
 
@@ -417,7 +425,8 @@ print("The multiplication of the values from to 1 to 10 inclusive is", factorial
 
 Result:
 
-Picture
+![A picture of collatz](collatz.jpg)
+
 
 # Exercise 4
 
