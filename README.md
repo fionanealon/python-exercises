@@ -583,7 +583,7 @@ print(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(','
 ```
 The above 'split' command splits each line into a python list. The 'index' method finds the given element in a list and returns its position so [0] prints the first column in the last, [1] prints the second column in the list, [2] prints the third column on the list and [3] prints the fourth column on the list.
 
-The lines already have a space between and the decimal places are aligned so no further formatting is required.
+The lines already have a space between them and the decimal places are aligned so no further formatting is required.
 
 ## How to run this code:
 
