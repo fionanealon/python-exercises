@@ -4,7 +4,7 @@
 2. fibname.py - Solution to exercise 2
 3. collatz.py - Solution to exercise 3
 4. euler5.py - Solution to exercise 4
-5. iris.py - Solution to exercise 5
+5. openfile.py - Solution to exercise 5
 6. factorial.py - Solution to exercise 6
 
 # Exercise 1
