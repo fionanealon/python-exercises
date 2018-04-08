@@ -449,7 +449,18 @@ In mathematics, the factorial of a non-negative integer n, denoted by n!, is the
 
 In topic 6, we reviewed functions and established that a function is a block of code with a name. This generic piece of code takes an input and creates an output. Functions are very efficient as they allow is to make 'calls' to the same block of code intead of repeating blocks of code for various outputs. See the below example.
 
+```python
+sum5 = 0
+for i in range(1,6):
+  sum5 = sum5 + i
+print("The sum of the values from 1 to 5 inclusive is", sum5)
 
+sum10 = 0
+for i in range(1,11):
+  sum10 = sum10 + i
+print("The sum of the values from 1 to 10 inclusive is", sum10)
+```
+In the above two blocks of code, we are using the same logic to find the outputs of the sum of values from 1 to 5 inclusive and the sum of values from 1 to 10 inclusive.
 
 
 
