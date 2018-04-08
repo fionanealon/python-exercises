@@ -493,10 +493,9 @@ print("The multiplication of the values from to 1 to 5 inclusive is", factorial(
 print("The multiplication of the values from to 1 to 7 inclusive is", factorial(7))
 print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10)) 
 ```
-The above function takes the input 'upto' and creates an output 'multupto' using a generic block of code. We able to use several calls to the factorial function instead repeating blocks of code which is very efficient. In the factorial function, I created the input/arguemnt upto (similar to sumall function) and the variable multupto. Using a for loop, we loop through the numbers i from 1 to upto, multpy the answer by i, change the answer to that and return the factorial.
+The above function takes the input 'upto' and creates an output 'multupto' using a generic block of code. We are able to use several calls to the factorial function instead returning outputs from repeating blocks of code which is very efficient. In the factorial function, I created the input/argument upto (similar to sumall function) and the variable multupto. The for loop loops through the numbers i from 1 to upto, multpies the answer by i and changes the ans. The factorial is then retuned.
 
-The 'print' code allows us to make calls to fatcorial functions, make updates to upto input (i.e. 5, 7, & 10) and print the factorial for these values.
-
+The 'print' coding allows us to make calls to fatcorial functions, to make updates to upto input (i.e. 5, 7, & 10) and to print the factorial for these values.
 
 ## How to run this code:
 
@@ -505,12 +504,12 @@ The 'print' code allows us to make calls to fatcorial functions, make updates to
 3. Download [Visual Studio Code](https://code.visualstudio.com/download).
 4. Install Visual Studio Code
 5. Save a new folder on desktop e.g. Python Exercises
-6. Save fib.py file into this folder
+6. Save factorial.py file into this folder
 7. Open Visual Studio Code
 8. Open Python Exercises folder from desktop
-9. Open fibname.py file
+9. Open factorial.py file
 10.	Open integrated terminal in Visual Studio code (Crtl + ')
-11. Type ‘python fibname.py’ in the command prompt in the terminal
+11. Type ‘python factorial.py’ in the command prompt in the terminal
 12.	Press enter
 
  ## Result:
