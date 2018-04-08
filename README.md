@@ -467,8 +467,20 @@ The smallest positive number that is evenly divisible by all of the numbers from
 
 ## Analysis and discussion of Exercise 4
 
-
-
+```python
+def factorial(upto):
+# Create a variable that will become the answer
+  multupto = 1
+# Loop through numbers i from 1 to upto
+  for i in range(1, upto + 1):
+# Multiply ans by i, changing ans to that
+    multupto = multupto * i
+# Return the factorial    
+  return multupto
+# Tests from questions
+print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10)
+```
+From exercise 6, we have already established the above block of code takes all of the values between 1 and 10 and multplies the with each other to get an ouptut. We should be able to use some of the logic in this function from 1 to 20 i.e. 2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560
 
 
 
