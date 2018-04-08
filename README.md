@@ -482,13 +482,7 @@ The lines already have a space between and the decimal places are aligned so no 
 
  ## Result:
 
-![A picture of factorial](factorial.JPG)
-
-
-
-
-
-
+![A picture of openfile](factorial.JPG)
 
 # Exercise 6
 
