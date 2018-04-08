@@ -358,8 +358,6 @@ Please enter an integer:
 2
 1
 
-
-
 ## Analysis and discussion of Exercise 3
 
 This program executes the collatz conjecture for the variable n=17. The program uses a 'while loop' to repeatedly execute statements given a certain condition. The program uses the executes the 'if' statement if this statement is true and prints the result of this statement. Otherwise, it executes the 'else' statement and prints the result of this statement. The 'while loop' will continue to iterate the 'if' and 'else' statements while a given condition is true.
@@ -415,7 +413,7 @@ Then the else statement prints n as an integer if the statement is false
 
 Result:
 
-![A picture of collatz](Collatz.jpg)
+![A picture of collatz](collatz.jpg)
 
 
 # Exercise 4
