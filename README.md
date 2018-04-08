@@ -412,3 +412,151 @@ Please complete the following exercise this week. It is problem 5 from Project E
 
 Original problem: https://projecteuler.net/problem=5
 
+
+# Exercise 6
+
+Please complete the following exercise this week. Write a Python script containing a function called factorial() that takes a single input/argument which is a positive integer and returns its factorial. The factorial of a number is that number multiplied by all of the positive numbers less than it. For example, the factorial of 5 is 5x4x3x2x1 which equals 120. You should, in your script, test the function by calling it with the values 5, 7, and 10.
+
+## References
+
+Wikipedia contributors. "Factorial" Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 05. April. 2018. Web. 05. April. 2018.< https://en.wikipedia.org/wiki/Factorial
+
+Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
+
+Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
+
+## Introduction
+
+In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. 
+
+
+## Solution to Exercise 6
+
+5! = 5 x 4 x 3 x 2 x 1 = 120
+7! = 7 x 6 x 5 x 4 x 3 x 2 x 1 = 5,040
+10! = 10 x 9 x 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 = 3,628,800
+
+
+## Analysis and discussion of Exercise 2
+
+This program is similar to the program in Exercise 1. In this program, the while loop also repeatedly executes a multiple assignment statement as long as n > 0.
+
+To find the value n:
+```python
+name = "Nealon"
+first = name[0]
+last = name[-1]
+firstno = ord(first)
+lastno = ord(last)
+x = firstno + lastno
+```
+This program finds the first letter and the last letter of the name "Nealon" - "N and "n" using [0] amd [-1] - the first and last elements of the list. The ord() function then converts the 'N' and 'n'  ASCII characters into decimal values so "N"=78 and "n"=110. On the next line, 78 and 110 are then added together to assign the value of x.
+```python
+ans = fib(x)
+```
+Since x = 188, this can be written:
+```python
+ans = fib(188)
+```
+This line is calling the function fib with an argument of 188 and if we look at the definition of fib, def fib(n):, what you can see is that the initial n value of the function is being set to 188. What happens now is that the function does it’s work, looping 188 times and setting the value of i each time through the loop and when the loop is finished it returns the value of i. 
+
+See below details on fib(188):
+
+In the multiple assignment of the while loop, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
+```python
+i = 0
+j = 1
+```
+When they reach the multiple assignment, you can substitute these values for the variables and see the new values for i and j:
+```python
+i, j = 1, 0 + 1
+```
+So now:
+```python
+i = 1
+j = 1
+```
+In the next iteration of the loop (2):
+```python
+i, j = 1, 1 + 1
+```
+so now: 
+```python
+i = 1
+j = 2
+```
+In the next iteration of the loop (3):
+```python
+i, j = 2, 1 + 2
+```
+so now: 
+```python
+i = 2
+j = 3
+```
+This continues until the 188th iteration of the loop after which n becomes -1 which then fails the condition of the while loop (n >= 0) and the while loop ends. n = n - 1  is to act as a counter for this iteration.
+```python
+i, j = 871347450517368352816615810882615488381, 538522340430300790495419781092981030533 + 871347450517368352816615810882615488381
+```
+so now: 
+```python
+i = 871347450517368352816615810882615488381
+j = 1409869790947669143312035591975596518914
+```
+After the while loop ends, the next line is the last of the function:
+```python
+return i
+```
+This line returns the last value of i which was generated in the while loop.
+
+```python
+ans = fib(x)
+print("My surname is", name)
+print("The first letter", first, "is number", firstno)
+print("The last letter", last, "is number", lastno)
+print("Fibonacci number", x, "is", ans)
+```
+This prints:
+"My surname is”, then the name (line 16 of the program) on the first sentence at the command prompt. 
+
+In this case, since name is Nealon then it prints:
+
+My surname is Nealon
+
+"The first letter", then then the value of first (line 17 of the program,) then "is number", then the value of firstno (line 19 of the program) on the second sentence at the command prompt. 
+
+In this case, since first is N and firstno is 78 it prints:
+
+The first letter N is number 78
+
+"The last letter", then then the value of last (line 18 of the program,) then "is number", then the value of lastno (line 20 of the program) on the third sentence at the command prompt. 
+
+In this case, since last is n and firstno is 110 it prints:
+
+The last letter n is number 110
+
+"Fibonacci number”, then the value of x, then “is” and then the value of ans.
+
+In this case, since x is 188 then it prints:
+
+Fibonacci number 188 is 871347450517368352816615810882615488381
+
+## How to run this code:
+
+1. Download [Anaconda](https://anaconda.org/).
+2. Install Anaconda
+3. Download [Visual Studio Code](https://code.visualstudio.com/download).
+4. Install Visual Studio Code
+5. Save a new folder on desktop e.g. Python Exercises
+6. Save fib.py file into this folder
+7. Open Visual Studio Code
+8. Open Python Exercises folder from desktop
+9. Open fibname.py file
+10.	Open integrated terminal in Visual Studio code (Crtl + ')
+11. Type ‘python fibname.py’ in the command prompt in the terminal
+12.	Press enter
+
+ ## Result:
+
+![A picture of fibname](fibname.JPG)
+
