@@ -196,8 +196,7 @@ The last letter n is number 110
 
 Fibonacci number 188 is 871347450517368352816615810882615488381
 
-![A picture of name forum](name forum.JPG)
-
+![A picture of forum](name forum.JPG)
 
 ## Analysis and discussion of Exercise 2
 
