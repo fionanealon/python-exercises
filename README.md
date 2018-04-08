@@ -406,11 +406,35 @@ Result:
 
 Picture
 
-## Exercise 4
+# Exercise 4
 
 Please complete the following exercise this week. It is problem 5 from Project Euler. The problem is as follows. 2,520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. Write a Python program using for and range to calculate the smallest positive number that is evenly divisible by all of the numbers from 1 to 20. Add your answer to your GitHub repository.
 
 Original problem: https://projecteuler.net/problem=5
+
+## References
+
+Wikipedia contributors. "Project Euler" Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 01. Feb. 2018. Web. 01. Feb. 2018.< https://en.wikipedia.org/wiki/Project_Euler
+
+Problem 5 Project Euler. Available at https://projecteuler.net/problem=5
+
+Project Euler Problem 5. Available at https://www.youtube.com/watch?v=WY9NtJoIqx0
+
+Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
+
+Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
+
+## Introduction
+
+Project Euler (named after Leonhard Euler) is a website dedicated to a series of computational problems intended to be solved with computer programs. [Ref: Project Euler](https://en.wikipedia.org/wiki/Project_Euler)
+
+## Solution to Exercise 4
+
+The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 =
+2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560
+[Ref: Euler 5](https://projecteuler.net/problem=5
+)
+
 
 # Exercise 5
 
@@ -444,12 +468,12 @@ with open("data/iris.csv")as f:
   for line in f:
     print(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3])
 ```
-The above block of code opens the iris.csv file in the sub folder, loops through this file, formats this file, prints the fomratted file and closes the file once complete. It is good practise to close a file once complete.
+The above block of code opens the iris.csv file in the sub folder, loops through this file, formats this file, prints the formatted file and closes the file once complete. It is good practise to close a file once complete.
 
 ```python
 with open("data/iris.csv")as f:
 ```
-The above piece of code states that with the data/iris.csv file as f, create a block of python code where f is a variable and each line of code indented after this with statement can access f (data/iris.csv) file. The with statement will close f (data/iris.csv) file once it reaches an unindented line of code.
+The above piece of code states that with the data/iris.csv file as f, create a block of python code where f is a variable and each line of code indented after this with statement can access f (data/iris.csv) file. The 'with statement' will close f (data/iris.csv) file once it reaches an unindented line of code.
 
 ```python
 for line in f:
@@ -459,7 +483,7 @@ The 'for loop' loops through each of the lines on  f (data/iris.csv) file.
 ```python
 print(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3])
 ```
-The above split command splits each line into a python list. The index mehod finds the given element in a list and returns its position so [0] prints the first column in the last, [1] prints the second column in the list, [2] prints the third column on the list and [3] prints the fourth column on the list.
+The above 'split' command splits each line into a python list. The 'index' method finds the given element in a list and returns its position so [0] prints the first column in the last, [1] prints the second column in the list, [2] prints the third column on the list and [3] prints the fourth column on the list.
 
 The lines already have a space between and the decimal places are aligned so no further formatting is required.
 
