@@ -32,7 +32,7 @@ The 7th Fibonacci number in the Fibonacci number sequence = 13 (0 1 1 2 3 5 8 13
 
 The function fib calculates the 7th Fibonacci number using a while loop. 
 
-A while loop in python programming repeatedly executes a target statement as long as a given condition is true. In this case, the while loop repeatedly executes a multiple assignment statement as long as n > 0.
+A 'while loop' in python programming repeatedly executes a target statement as long as a given condition is true. In this case, the 'while loop' repeatedly executes a multiple assignment statement as long as n > 0.
 
 In the multiple assignment, all values on the right side of the ‘=‘are calculated first and then assigned to the variables on the left side of the ‘=‘. For example, the first time through the loop the values for i and j are as follows:
 ```python
@@ -106,13 +106,13 @@ The most important variable is i as it is the one that is returned at the end of
 
 0, 1, 1, 2, 3, 5, 8, 13
 
-In the while loop the reason that you have n = n - 1  is to act as a counter. Every time we go through the loop, n is de-incremented by 1 so if n = 7 the first time through the loop, it becomes 6 the next time through and so on until it becomes -1, which then fails the condition of the while loop (n >= 0) and the while loop ends.
+In the 'while loop' the reason that you have n = n - 1  is to act as a counter. Every time we go through the loop, n is de-incremented by 1 so if n = 7 the first time through the loop, it becomes 6 the next time through and so on until it becomes -1, which then fails the condition of the while loop (n >= 0) and the 'while loop' ends.
 
 After the while loop ends, the next line is the last line of the function:
 ```python
 return i
 ```
-This line returns the last value of i which was generated in the while loop.
+This line returns the last value of i which was generated in the 'while loop'.
 
 Everything up to this point has been discussing the contents of the function fib.
 
@@ -138,7 +138,7 @@ The last line:
 print("Fibonacci number", x, "is", ans)
 ```
 
-This prints:
+On the command prompt at the terminal, this prints:
 
 "Fibonacci number”, then the value of x, then “is” and then the value of ans.
 In this case, since x is 7 then it prints:
@@ -195,8 +195,6 @@ The first letter N is number 78
 The last letter n is number 110
 
 Fibonacci number 188 is 871347450517368352816615810882615488381
-
-The ord() function converts the ASCII 'N' and 'n' characters into their corresponding ASCII decimal value.
 
 ![A picture of name forum](name forum.JPG)
 
@@ -285,7 +283,7 @@ This prints:
 
 In this case, since name is Nealon then it prints:
 
-My surname is Nealon
+My surname is Nealon.
 
 "The first letter", then then the value of first (line 17 of the program,) then "is number", then the value of firstno (line 19 of the program) on the second sentence at the command prompt. 
 
