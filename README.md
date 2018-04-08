@@ -444,7 +444,22 @@ with open("data/iris.csv")as f:
   for line in f:
     print(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3])
 ```
+The above block of code opens the iris.csv file in the sub folder, loops through this file, formats this file, prints the fomratted file and closes the file once complete. It is good practise to close a file once complete.
 
+```python
+with open("data/iris.csv")as f:
+```
+The above piece of code states that with the data/iris.csv file as f, create a block of python code where f is a variable and each line of code indented after this with statement can access f (data/iris.csv) file. The with statement will close f (data/iris.csv) file once it reaches an unindented line of code.
+
+```python
+for line in f:
+```
+The for loop loops through each of the lines on  f (data/iris.csv) file.
+
+```python
+print(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3])
+```
+The above code prints a string in the required format for exercise 5
 # Exercise 6
 
 Please complete the following exercise this week. Write a Python script containing a function called factorial() that takes a single input/argument which is a positive integer and returns its factorial. The factorial of a number is that number multiplied by all of the positive numbers less than it. For example, the factorial of 5 is 5x4x3x2x1 which equals 120. You should, in your script, test the function by calling it with the values 5, 7, and 10.
