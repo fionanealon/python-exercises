@@ -473,7 +473,7 @@ print("The sum of the values from to 1 to 50 inclusive is", sumall(50))
 print("The sum of the values from to 1 to 5 inclusive is", sumall(5))
 print("The sum of the values from to 1 to 10 inclusive is", sumall(10))
 ```
-The above function is far more efficient. The above function takes the input 'upto' and creates an output 'sumupto' using a generic block of code. We able to use several calls to the sumall function instead repeating blocks of code as in the first example.
+The above function is far more efficient. The above function takes the input 'upto' and creates an output 'sumupto' using a generic block of code. We able to make several calls to the sumall function instead repeating blocks of code as in the first example.
 
 After reviewing the sumall function, I found some similarities between the sumall function logic and the logic required for exercise 6.
 
@@ -493,7 +493,7 @@ print("The multiplication of the values from to 1 to 5 inclusive is", factorial(
 print("The multiplication of the values from to 1 to 7 inclusive is", factorial(7))
 print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10)) 
 ```
-The above function takes the input 'upto' and creates an output 'multupto' using a generic block of code. We are able to use several calls to the factorial function instead returning outputs from repeating blocks of code which is very efficient. In the factorial function, I created the input/argument upto (similar to sumall function) and the variable multupto. The for loop loops through the numbers i from 1 to upto, multpies the answer by i and changes the ans. The factorial is then retuned.
+The above function takes the input 'upto' and creates an output 'multupto' using a generic block of code. We are able to make several calls to the factorial function instead returning outputs from repeating blocks of code which is very efficient. In the factorial function, I created the input/argument upto (similar to sumall function) and the variable multupto. The for loop loops through the numbers i from 1 to upto, multpies the answer by i and changes the ans. The factorial is then retuned.
 
 The 'print' coding allows us to make calls to fatcorial functions, to make updates to upto input (i.e. 5, 7, & 10) and to print the factorial for these values.
 
