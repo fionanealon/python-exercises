@@ -380,6 +380,19 @@ n = int(input("Please enter an integer: "))
     print(int(n))
 # Then the if statement prints n as an integer if the staetement is true
   else:
+def factorial(upto):
+# Create a variable that will become the answer
+  multupto = 1
+# Loop through numbers i from 1 to upto
+  for i in range(1, upto + 1):
+# Multiply ans by i, changing ans to that
+    multupto = multupto * i
+# Return the factorial    
+  return multupto
+# Tests from questions
+print("The multiplication of the values from to 1 to 5 inclusive is", factorial(5))
+print("The multiplication of the values from to 1 to 7 inclusive is", factorial(7))
+print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10)) 
 # If the above if statement is not true and it's not possible to divide n evenly by 2, the while loop then executes the below statement.
     n = (3*n)+1
 # The above statement multiplies n by 3 and adds 1.
@@ -413,10 +426,24 @@ Please complete the following exercise this week. It is problem 5 from Project E
 Original problem: https://projecteuler.net/problem=5
 
 ## References
+def factorial(upto):
+# Create a variable that will become the answer
+  multupto = 1
+# Loop through numbers i from 1 to upto
+  for i in range(1, upto + 1):
+# Multiply ans by i, changing ans to that
+    multupto = multupto * i
+# Return the factorial    
+  return multupto
+# Tests from questions
+print("The multiplication of the values from to 1 to 5 inclusive is", factorial(5))
+print("The multiplication of the values from to 1 to 7 inclusive is", factorial(7))
+print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10)) 
 
 Wikipedia contributors. "Project Euler" Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 01. Feb. 2018. Web. 01. Feb. 2018.< https://en.wikipedia.org/wiki/Project_Euler
 
 Problem 5 Project Euler. Available at https://projecteuler.net/problem=5
+
 
 Project Euler Problem 5. Available at https://www.youtube.com/watch?v=WY9NtJoIqx0
 
