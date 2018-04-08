@@ -514,5 +514,5 @@ The 'print' coding allows us to make calls to fatcorial functions, to make updat
 
  ## Result:
 
-![A picture of fibname](fibname.JPG)
+![A picture of factorial](factorial.JPG)
 
