@@ -447,6 +447,12 @@ In mathematics, the factorial of a non-negative integer n, denoted by n!, is the
 
 [Topic 6 - Video defining functions](https://web.microsoftstream.com/video/72d3bbf9-e58d-4a19-8a2c-e784e3cb4db3)
 
+In topic 6, we reviewed functions and established that a function is a block of code with a name. This generic piece of code takes an input and creates an output. Functions are very efficient as they allow is to make 'calls' to the same block of code intead of repeating blocks of code for various outputs. See the below example.
+
+
+
+
+
 
 ## How to run this code:
 
