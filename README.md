@@ -343,8 +343,8 @@ The collatz conjecture is defined as a sequence that starts with a positive inte
 
 ## Answer to Exercise 3
 
-Please enter an integer: 
-17
+Please enter an integer: 17
+
 52
 26
 13
@@ -413,7 +413,13 @@ Then the else statement prints n as an integer if the statement is false
 
 Result:
 
+
 ![A picture of collatz](collatz.jpg)
+
+
+
+
+
 
 
 # Exercise 4
