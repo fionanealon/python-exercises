@@ -23,6 +23,9 @@ My name is Fiona, so the first and last letter of my name (F + A = 6 + 1) give t
 
 ## Introduction
 A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. 
+
+## Solution to Exercise 1
+
 The 7th Fibonacci number in the Fibonacci number sequence = 13 (0 1 1 2 3 5 8 13)
 
 ## Analysis and discussion of Exercise 1
