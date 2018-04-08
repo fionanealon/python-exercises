@@ -509,6 +509,25 @@ def factorial(upto):
 # Tests from question
 print("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20", factorial(20)) 
 ```
+## How to run this code:
+
+1. Download [Anaconda](https://anaconda.org/).
+2. Install Anaconda
+3. Download [Visual Studio Code](https://code.visualstudio.com/download).
+4. Install Visual Studio Code
+5. Save a new folder on desktop e.g. Python Exercises
+6. Save euler5.py file into this folder
+7. Open Visual Studio Code
+8. Open Python Exercises folder from desktop
+9. Open euler5.py file
+10.	Open integrated terminal in Visual Studio code (Crtl + ')
+11. Type ‘python euler5.py’ in the command prompt in the terminal
+12.	Press enter
+
+## Result:
+
+![A picture of euler5](euler5.jpeg)
+
 
 
 
