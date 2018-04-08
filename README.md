@@ -177,7 +177,13 @@ Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Ava
 
 Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
 
-## Answer to Exercise 2
+## Introduction
+
+This program displays Fibonacci numbers using a person's name. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
+
+The program locates the first letter and the last letter of the person's name and converts these letters (ASCII characters) in decimal. The program then adds these two decimal numbers together and prints the answer in a string at the command prompt in the terminal.
+
+## Solution to Exercise 2
 
 My surname is Nealon
 
@@ -191,16 +197,10 @@ The ord() function converts the ASCII 'N' and 'n' characters into their correspo
 
 ![A picture of name forum](name forum.JPG)
 
-## Introduction
-
-This program displays Fibonacci numbers using a person's name. A Fibonacci number sequence is a sequence of numbers where the first two Fibonacci numbers are 0 and 1. The next Fibonacci number is the sum of the previous 2 Fibonacci numbers. The sequence continues until the required Fibonaaci number is reached.
-
-The program locates the first letter and the last letter of the person's name and converts these letters (ASCII characters) in decimal. The program then adds these two decimal numbers together and provides a desciption of this process in the terminal.
-
 
 ## Analysis and discussion of Exercise 2
 
-This program is similar to the program in Exercise 1. In this program, the while loop also repeatedly executes a multiple assignment statement as long as n > 0.
+This program is similar to the program in Exercise 1. In this program, the 'while loop' also repeatedly executes a multiple assignment statement as long as n > 0.
 
 To find the value n:
 ```python
@@ -255,7 +255,7 @@ so now:
 i = 2
 j = 3
 ```
-This continues until the 188th iteration of the loop after which n becomes -1 which then fails the condition of the while loop (n >= 0) and the while loop ends. n = n - 1  is to act as a counter for this iteration.
+This continues until the 188th iteration of the loop after which n becomes -1 which then fails the condition of the 'while loop' (n >= 0) and the 'while loop' ends. n = n - 1  is to act as a counter for this iteration.
 ```python
 i, j = 871347450517368352816615810882615488381, 538522340430300790495419781092981030533 + 871347450517368352816615810882615488381
 ```
@@ -264,11 +264,11 @@ so now:
 i = 871347450517368352816615810882615488381
 j = 1409869790947669143312035591975596518914
 ```
-After the while loop ends, the next line is the last of the function:
+After the 'while loop' ends, the next line is the last of the function:
 ```python
 return i
 ```
-This line returns the last value of i which was generated in the while loop.
+This line returns the last value of i which was generated in the 'while loop'.
 
 ```python
 ans = fib(x)
