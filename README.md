@@ -429,7 +429,7 @@ Python Software Foundation. Python Language Reference, version 2.7. Available at
 
 ## Introduction
 
-In mathematics, a function[1] is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. An example is the function that relates each real number x to its square x2. The output of a function f corresponding to an input x is denoted by f(x) (read "f of x"). [Ref: Function(mathematics](https://en.wikipedia.org/wiki/Function_(mathematics)).
+In mathematics, a function[1] is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. An example is the function that relates each real number x to its square x2. The output of a function f corresponding to an input x is denoted by f(x) (read "f of x"). [Ref: Function(mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
 
 In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. [Ref: Factorial](https://en.wikipedia.org/wiki/Factorial)
 
