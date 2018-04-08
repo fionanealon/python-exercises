@@ -466,7 +466,7 @@ def factorial(upto):
 # Tests from questions
 print("The multiplication of the values from to 1 to 10 inclusive is", factorial(10))
 ```
-In exercise 6, we have already established that the above piece of code multiplies all the values between 1 and 10 to get the value 3,628,800. This block of code takes a range of values and multiplies them with each other to get an putput. We should be able to use some of this logic to multiply all the values required for project Euler problem 5 - 2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560.
+In exercise 6, we have already established that the above piece of code multiplies all the values between 1 and 10 to get the value 3,628,800. This block of code takes a range of values and multiplies them with each other to get an output. We should be able to use some of this logic to multiply all the values required for project Euler problem 5 - 2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 = 232,792,560.
 
 ```python
 smallest_num = 1
@@ -488,7 +488,7 @@ Upon investigation of project Euler problem 5, I found the below code on [Ref: S
                 smallest_num = smallest_num * k
                 break
 ```
-
+The above logic finds the values 2 x 3 x 2 x 5 x 7 x 2 x 3 x 11 x 13 x 2 x 17 x 19 i.e. the multiples of the value which is smallest positive number that is evenly divisible by all of the numbers from 1 to 20. I adapted this piece of code into the factorial function so that the function now looks like the below:
 
 
 
