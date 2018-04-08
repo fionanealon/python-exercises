@@ -412,6 +412,28 @@ Please complete the following exercise this week. It is problem 5 from Project E
 
 Original problem: https://projecteuler.net/problem=5
 
+# Exercise 5
+
+Please complete the following exercise this week. Write a Python script that reads the Iris data set in and prints the four numerical values on each row in a nice format. That is, on the screen should be printed the petal length, petal width, sepal length and sepal width, and these values should have the decimal places aligned, with a space between the columns.
+
+## References
+
+Wikipedia contributors. "Iris Flower Data Set" Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 07. Feb. 2018. Web. 07. Feb. 2018.< https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+Python Software Foundation. The Python Tutorial, Python 3.6.5 documentation. Available at https://docs.python.org/3/tutorial/
+
+Python Software Foundation. Python Language Reference, version 2.7. Available at http://www.python.org
+
+## Introduction
+
+The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.
+
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+[Ref: Iris Flower Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+## Solution to Exercise 5
+
+
 
 # Exercise 6
 
