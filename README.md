@@ -462,6 +462,21 @@ print("The sum of the values from 1 to 10 inclusive is", sum10)
 ```
 In the above two blocks of code, we are using the same logic to find the outputs of the sum of values from 1 to 5 inclusive and the sum of values from 1 to 10 inclusive.
 
+```python
+def sumall(upto):
+  sumupto = 0
+  for i in range(1, upto + 1):
+    sumupto = sumupto + i
+  return sumupto
+
+print("The sum of the values from to 1 to 50 inclusive is", sumall(50))
+print("The sum of the values from to 1 to 5 inclusive is", sumall(5))
+print("The sum of the values from to 1 to 10 inclusive is", sumall(10))
+```
+The above function is far more efficient. The above function takes the input 'upto' and creates an output 'sumupto' using a generic block of code. We able to use several calls to the sumall function instead repeating blocks of code as in the first example.
+
+After reviewing the sumall function, I found some similarities between the sumall function logic and the logic required for exercise 6.
+
 
 
 
