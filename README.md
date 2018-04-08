@@ -433,6 +433,7 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 ## Solution to Exercise 5
 
+Solution to exercise 5 is the first 4 columns of data in Iris data set as in ![Solution to Iris](Solution to Iris.txt).
 
 
 # Exercise 6
