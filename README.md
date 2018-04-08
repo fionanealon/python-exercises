@@ -445,6 +445,8 @@ In mathematics, the factorial of a non-negative integer n, denoted by n!, is the
 
 ## Analysis and discussion of Exercise 6
 
+[Topic 6 - Video defining functions](https://web.microsoftstream.com/video/72d3bbf9-e58d-4a19-8a2c-e784e3cb4db3)
+
 
 ## How to run this code:
 
